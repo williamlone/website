@@ -51,10 +51,6 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/archetypes",
-      "title": "archetypes"
-    },
-    {
       "title": "posts",
       "path": "[[workspace]]/content/posts"
     }
