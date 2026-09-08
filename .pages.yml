@@ -1,0 +1,31 @@
+# .pages.config.yml
+media:
+  input: "assets/images"   # 图片上传存放目录（Hugo assets）
+  output: "/images"
+
+content:
+  - name: "posts"
+    label: "博客文章"
+    type: "collection"
+    path: "content/posts"  # Hugo文章md所在文件夹
+    create: true            # 允许新建文章
+    delete: true            # 允许删除文章
+    fields:
+      - name: title
+        label: 标题
+        type: string
+      - name: date
+        label: 发布日期
+        type: date
+      - name: draft
+        label: 是否草稿
+        type: boolean
+      - name: description
+        label: 摘要
+        type: string
+      - name: tags
+        label: 标签
+        type: list
+      - name: body
+        label: 正文
+        type: markdown
