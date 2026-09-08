@@ -2,6 +2,9 @@ baseURL = 'https://williamlone.github.io/website/'
 locale = 'zh-cn'
 title = 'My New Hugo Project'
 theme = "PaperMod"
+# 让markdown里以/开头的绝对路径自动补上baseURL前缀
+# 否则 /images/x.png 在子路径部署(https://.../website/)下会404
+canonifyURLs = true
 
 [params]
 # 关闭首页最新文章的“大标题特排”（first-entry）样式，所有文章统一使用卡片列表
