@@ -1,6 +1,6 @@
 # .pages.config.yml
 media:
-  input: "assets/images"   # 图片上传存放目录（Hugo assets）
+  input: "static/images"   # 图片上传存放目录（Hugo static，会被发布到网站根目录）
   output: "/images"
 
 content:
